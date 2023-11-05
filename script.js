@@ -16,6 +16,22 @@ let myGrade = 88;
 
 // Write a switch statement that does the same thing as the if/else-if/else statement above. 
 
+myGrade = 88;
+
+switch (myGrade) {
+    case 1: console.log("")
+        break;
+    case 2: console.log("")
+        break;    
+    case 3: console.log("")
+        break;
+    case 4: console.log("")
+        break;
+    case 5: console.log("")
+        break;
+    case 6: console.log("")
+        break;
+}
 
 // Which do you prefer? Why?
 
@@ -29,5 +45,5 @@ for (let i = 1; i <= 100; i++) {
     console.log(i);
 }
 
-
 // Modify your for loop to make it output an exclamation point for all odd numbers instead of the number.
+
