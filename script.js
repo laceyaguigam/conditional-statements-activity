@@ -25,5 +25,9 @@ let myGrade = 88;
 
 // Write a for loop that prints all value from 1 to 100
 
+for (let i = 1; i <= 100; i++) {
+    console.log(i);
+}
+
 
 // Modify your for loop to make it output an exclamation point for all odd numbers instead of the number.
