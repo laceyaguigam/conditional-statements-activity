@@ -6,46 +6,64 @@ let myGrade = 88;
 
 myGrade = 88;
 
-if () {
-    console.log();
-    if () {
-       console.log(); 
+if (myGrade >= 90 ) {
+    console.log("A");
+    if (myGrade >= 80) {
+       console.log("B"); 
     }
-} else  {
-    console.log();
-}
+     else if (myGrade >= 70) {
+        console.log("C"); 
+     } 
+     else if (myGrade >= 60) {
+        console.log("D"); 
+     }
+} else (myGrade <= 59) 
+    console.log("F");
+
+
+ console.log(myGrade);
 
 
 
 // Modify the value inside of “myGrade” to test your code.
 
+//my code did not work, it only gave F when it should have shown a B. When I changed the greater than to a less than
+// then it showed multiple letter grades
+
 
 // What should go in your else statement?
 
+//the final grading scale should go into the else statement?
 
 // Write a switch statement that does the same thing as the if/else-if/else statement above. 
 
 myGrade = 88;
 
 switch (myGrade) {
-    case 1: console.log("")
+    case 1: (myGrade >= 90 )
+    console.log("A")
         break;
-    case 2: console.log("")
+    case 2: (myGrade >= 80) 
+    console.log("B")
         break;    
-    case 3: console.log("")
+    case 3: (myGrade >= 70)
+    console.log("C")
         break;
-    case 4: console.log("")
+    case 4: (myGrade >= 60)
+    console.log("D")
         break;
-    case 5: console.log("")
+    case 5: (myGrade <= 59) 
+    console.log("F")
         break;
-    case 6: console.log("")
-        break;
+    
 }
 
-// Which do you prefer? Why?
+// Which do you prefer? Why? // Which version of the code looks cleaner/easier to understand to you? Why?
+
+// I like the switch statement because it looks like its more organized when there is more blocks of code
+// and its easier to read, the if/else-if/else statements are harder for my brain to process 
 
 
-// Which version of the code looks cleaner/easier to understand to you? Why?
 
 
 // Write a for loop that prints all value from 1 to 100
